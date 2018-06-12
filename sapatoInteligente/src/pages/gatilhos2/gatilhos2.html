@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Gatilhos
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content padding id="page12">
+  <h3 id="gatilhos2-heading10" style="color:#000000;">
+    Novo gatilho
+  </h3>
+  <form id="gatilhos2-form7">
+    <ion-item id="gatilhos2-toggle5">
+      <ion-label>
+        Ativo
+      </ion-label>
+      <ion-toggle color="energized" checked="false"></ion-toggle>
+    </ion-item>
+    <ion-item id="gatilhos2-input13">
+      <ion-label>
+        Nome
+      </ion-label>
+      <ion-input type="text" placeholder="" name="nome"></ion-input>
+    </ion-item>
+    <ion-item id="gatilhos2-range1">
+      <ion-range min="0" max="100" step="1" color="energized" value="50" name="peso">
+        <ion-label range-left>
+          Peso
+        </ion-label>
+      </ion-range>
+    </ion-item>
+    <ion-item id="gatilhos2-range2">
+      <ion-range min="0" max="100" step="1" color="energized" value="50" name="distancia">
+        <ion-label range-left>
+          Distância
+        </ion-label>
+      </ion-range>
+    </ion-item>
+    <ion-item id="gatilhos2-range3">
+      <ion-range min="0" max="100" step="1" color="energized" value="50" name="tempoPe">
+        <ion-label range-left>
+          Tempo de pé
+        </ion-label>
+      </ion-range>
+    </ion-item>
+    <ion-item id="gatilhos2-select1">
+      <ion-label>
+        Tipo de pisada
+      </ion-label>
+      <ion-select name="tipoPisada">
+        <ion-option>
+          pronada
+        </ion-option>
+        <ion-option>
+          supinada
+        </ion-option>
+      </ion-select>
+    </ion-item>
+  </form>
+  <button id="gatilhos2-button10" ion-button color="positive" block on-click="goToGatilhos()">
+    Salvar
+  </button>
+</ion-content>
